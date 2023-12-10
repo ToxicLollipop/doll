@@ -1,0 +1,177 @@
+chronologia
+
+    /*   CiaranSouls Codes 2022   */
+    
+    #Vag_cont{
+      width:550px;
+      height:400px;
+      background:#101010;
+      margin: 0 auto;
+      position:relative;
+      display:flex;
+      overflow:hidden;
+    
+    }
+    #Vag_cont .Vag_box1{
+      width:250px;
+      height:400px;
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-end;
+      align-items:center;
+      outline-offset:-5px;
+      outline:1px solid var(--img-content-color);
+    }
+    
+    .Vag_box2{
+      width:335px;
+      height:380px;
+      padding:10px;
+      display:flex;
+      flex-direction:column;
+    }
+    
+    .Ft_vg1, .Ft_vg2, .Ft_vg3{
+      width:250px;
+      height:400px;
+      position: absolute;
+      top: 0;}
+      
+      .Ft_vg1{
+      background:var(--img-content-color);
+      mix-blend-mode: overlay;
+      z-index:2!important;
+        opacity:0.4;
+    }
+    
+    .Ft_vg2{
+    background: linear-gradient(transparent 20%, black 106%);z-index:1!important;
+    }
+    
+      .Ft_vg3{
+      background:var(--img-content-color);
+      mix-blend-mode: multiply;
+      z-index:2!important;
+      opacity:0.5;
+    }
+    
+    .Vagr_title{
+      width:330px;
+      height:50px;
+      padding:5px;
+      display:flex;
+      justify-content: space-between;
+      align-items:center;
+       background: linear-gradient(-90deg, transparent 15%, var(--accent) 100%);
+    }
+    
+    .Vagr_title span{
+      font-size:20px;
+      line-height:40px;
+      padding-left:8px;
+      font-style: italic;  
+    }
+    
+    .Vagr_title span, .vagrant-songH a{
+      font-family: 'Fugaz one';
+      font-weight:800;
+      text-transform: uppercase;
+      color:var(--title-color);
+      text-decoration:none;
+    }
+    
+    .Vagr_title_icon i{
+     color:var(--accent);
+     font-size:35px;}
+    
+    
+      .Vagrant_menuCont { 
+        width:110px;
+        height:100px;
+        position:absolute;
+        bottom:5px;
+        left:5%;
+        display:flex;
+        flex-direction:column;
+        z-index:9;
+    }
+      
+    .Vagrant_menuCont i{
+      padding-right:5px;
+      font-size:15px;
+      color:var(--accent);
+    }
+    
+    .Vagrant_menuCont span{
+      font-family:calibri;
+      font-size:10px;
+      letter-spacing:1px;
+      text-transform:uppercase;
+    }
+      
+      .Vagrant_menuCont label{
+        padding:6px;
+        display:flex;
+        justify-content: flex-start;
+        align-items:center;
+        color:var(--text);
+    }
+    
+    
+      .Vagr_song{  
+      width: 335px;
+      height: 400px;
+    }
+     
+      .Vagr_song input {display:none;}
+      .Vagrant_menuCont label {cursor:pointer;}
+    
+      .Vagr_song .conrel {
+        width:335px;
+        height:317px;
+        margin-top:10px;
+        position:absolute;
+        text-align:right;
+        opacity:0;
+        overflow:auto;
+      }
+    
+    .Vagr_song .conrel::-webkit-scrollbar {display: none;}
+      
+    .Vagr_song input#rels1:checked ~ .vgr1{ opacity:1;z-index:1!important;}  
+      .Vagr_song input#rels2:checked ~ .vgr2{ opacity:1;z-index:1!important;}  
+      .Vagr_song input#rels3:checked ~ .vgr3{ opacity:1;z-index:1!important;} 
+    
+    .vagrant-songH{
+      width:322px;
+      height:40px;
+      margin-bottom:14px;
+      padding:5px;
+      border:1px solid var(--content-border-color);
+      display: flex;
+      flex-direction:column;
+      justify-content:center;
+      font-family:calibri;
+      font-size:13px;
+      text-align:left;
+      position:relative;
+      color:var(--text);
+    }
+    
+    .vagrant-songH a{
+      width:auto;
+      height:auto;
+      font-size:15px;
+      line-height:14px;
+      color: var(--accent);
+      
+    }
+    
+    .vagrant-songH i{
+      position:absolute;
+      right:5px;
+      font-size:30px;
+    }
+    
+    .C {font-size: 14px; color: gray; text-decoration: none;}
